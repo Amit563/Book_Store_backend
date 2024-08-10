@@ -14,7 +14,8 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin:
+      "https://66b79b13a80f80628c489f96--lambent-paprenjak-2e4d04.netlify.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
   })
